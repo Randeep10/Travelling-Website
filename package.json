@@ -1,0 +1,16 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "landi page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass  css/styles.scss css/style.css"
+    ,"watch:scss":"node-sass --watch css/styles.scss css/style.css"
+
+  },
+  "author": "randeep",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
